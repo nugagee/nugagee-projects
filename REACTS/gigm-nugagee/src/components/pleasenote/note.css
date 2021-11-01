@@ -1,0 +1,27 @@
+.note{
+    padding: 20px 0px;
+    }
+  
+    .note h1{
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #E21D00;
+      padding: 0px 0px 20px 0px;
+    }
+    .note p{
+      font-style: italic;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      max-width: 676px;
+      color: rgba(51, 51, 51, 0.8);
+      margin: auto;
+    }
+
+    @media screen and (max-width: 1024px) {
+        .note{
+          padding-top: 0px;
+          padding-left: 30px;
+          }
+        }

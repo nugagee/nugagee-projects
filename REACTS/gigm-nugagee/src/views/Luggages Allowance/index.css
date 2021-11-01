@@ -1,0 +1,73 @@
+
+.luggage h1{
+    max-width: 272px;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 80px;
+    font-family: "EuclidCircularB-Bold";
+}
+
+.luggage-text{
+    background: rgba(86, 204, 242, 0.5);
+    box-shadow: 0px 4px 50px rgba(86, 204, 242, 0.2);
+    border-radius: 0px 0px 14px 14px;
+    padding: 20px;
+}
+.luggage p{
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 483px;
+    opacity: 0.8;
+}
+.luggage h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.8;
+}
+.luggage h2{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: "EuclidCircularB-Bold";
+    opacity: 0.8;
+    color: #E21D00;
+}
+
+.travelbag-holder{
+    margin: 40px 0px 0px 0px;
+}
+
+.ghana-box-holder{
+    margin: 150px 0px 0px 0px;
+}
+
+.ghana{
+    height: 220px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+   background-color: rgba(86, 204, 242, 0.1);
+   border-radius: 14px;
+}
+.travelbox{
+    height:220px;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    background-color: rgba(86, 204, 242, 0.1);
+    border-radius: 14px;
+}
+
+.travelbag{
+    background-color: rgba(86, 204, 242, 0.1);
+    border-radius: 14px;
+}
+
+@media only screen and (max-width: 1024px){
+    .luggage-text {
+        padding: 10px;
+    }
+    .luggage h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+}

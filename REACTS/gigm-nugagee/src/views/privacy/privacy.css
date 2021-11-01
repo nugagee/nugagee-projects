@@ -1,0 +1,33 @@
+.privacy-text{
+    padding: 80px 0px;
+}
+
+.privacy{
+    padding: 120px 0px;
+    background: rgba(86, 204, 242, 0.2);
+}
+
+.privacy h1{
+    font-family: "EuclidCircularB-Bold";
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1F1F1F;
+}
+
+.privacy p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.cardholder-privacy{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.privacy-text p{
+    max-width: 1239px;
+    font-size: 15px;
+    line-height: 24px;
+}

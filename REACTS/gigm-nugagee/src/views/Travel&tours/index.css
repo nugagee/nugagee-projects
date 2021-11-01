@@ -1,0 +1,39 @@
+.travel-banner{
+    padding: 50px 0px;
+}
+
+.travel-banner h1{
+    font-family: "EuclidCircularB-Bold";
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.travel{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)), url("../../assets/img/travel-tour.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 300px 0px;
+    color: white;
+    border-radius: 14px;
+}
+.travel-content{
+    padding: 30px 0px;
+}
+
+.travel-content h1{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 50px;
+    font-family: "EuclidCircularB-Bold";
+    padding: 0px 0px 10px 0px;
+}
+
+.travel-content p{
+    line-height: 22px;
+    max-width: 544px;
+}

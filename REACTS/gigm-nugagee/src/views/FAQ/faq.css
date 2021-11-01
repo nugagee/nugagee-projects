@@ -1,0 +1,83 @@
+.faq{
+    background-image:url("../../assets/img/FQABg.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 80px 0;
+    color: white;
+}
+
+.faq h1{
+    max-width: 403px;
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 80px;
+    font-family: "EuclidCircularB-Bold";
+    margin: auto;
+    text-align: justify;
+}
+
+.faq-answer{
+    padding: 50px 0px 0px 0px;
+}
+
+.booking h1{
+    font-family: "EuclidCircularB-Bold";
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    margin: 2rem auto;
+}
+
+
+.accordion {
+    margin: 2rem auto;
+  }
+
+  .accordion-title {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+  }
+
+  .accordionicon{
+      width: 30px;
+      height: 30px;
+      font-size: 18px;
+      padding: 3px 10px;
+      border-radius: 100%;
+      background: #56CCF2;
+  }
+
+  .accordion-title h6{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: "EuclidCircularB-Bold";
+  }
+  
+  .accordion-title,
+  .accordion-content {
+    padding: 1rem;
+  }
+
+  .accordion-content {
+    margin: 0px 0px 0px 5rem;
+  }
+
+  .accordion-content p{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: rgba(51, 51, 51, 0.7);
+  }
+
+  @media screen and (max-width: 1024px) {
+    .faq h1 {
+      font-size: 60px;
+      line-height: 60px;
+  }
+  }

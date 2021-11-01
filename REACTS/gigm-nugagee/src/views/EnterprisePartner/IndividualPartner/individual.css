@@ -1,0 +1,55 @@
+.contactform{
+    margin: 20px 0px 0px 0px;
+}
+
+.contactformholder{
+    width: 40% ;
+    margin: auto;
+    background: rgba(86, 204, 242, 0.1);
+    border-radius: 14px;
+    position: relative;
+}
+
+.partnerform{
+    width: 55%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.backicon{
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    left: 20px;
+    cursor: pointer;
+}
+
+.partnerform h1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;  
+    text-align: center;
+}
+
+.partnerform p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;  
+    text-align: center;
+    color: rgba(51, 51, 51, 0.7);
+   padding: 0px 0px 10px 0px;
+}
+
+.partnerform label{
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+padding-left: 20px;
+padding-top: 10px;
+}
+
+@media only screen and (max-width:1024px) {
+    .contactformholder{
+        width: 100% ;
+    }
+}

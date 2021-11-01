@@ -1,0 +1,255 @@
+.side-bar {
+  margin-top: 10px;
+}
+
+.profile-nav {
+  padding: 10px 10px 10px 10px;
+  color: #333333;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.profile-nav:hover {
+  background: rgba(86, 204, 242, 0.1);
+}
+
+.active .profile-nav {
+  background: rgba(230, 230, 233, 0.1);
+  border-bottom: 3px solid #e21d00;
+}
+
+.content {
+  background: transparent !important;
+  padding: 15px;
+}
+
+.contentarea {
+  min-width: 85%;
+  position: absolute;
+  top: 0;
+  left: 250px;
+  z-index: 1;
+  padding: 4em;
+}
+
+.fund-wallet {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-right {
+  width: 40%;
+  margin: 5px 0px 0px 0px;
+  height: 30vh;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+}
+
+.flex-right h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 15px;
+}
+
+.flex-right h1 {
+  font-size: 30px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.fundbtn {
+  width: 30%;
+  margin: 60px 0px 0px 35%;
+}
+
+.flex-left {
+  width: 10%;
+  margin: 5px 0px 0px 0px;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.flex-left h3 {
+  min-width: 120px;
+  font: bold 12px Sans-Serif;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.1);
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 43px;
+  left: 47px;
+  padding: 2px;
+  line-height: 20px;
+}
+
+.transaction {
+  margin-top: 20px;
+  padding: 10px 0px;
+  position: relative;
+}
+
+.tabs {
+  max-width: 800px;
+  margin-top: 20px;
+  padding: 0 20px;
+  text-align: end;
+}
+
+.tabs input {
+  display: none;
+}
+
+.tabs label {
+  display: inline-block;
+  padding: 6px 0 6px 0;
+  margin: 0 -2px;
+  width: 20%;
+  text-align: center;
+}
+
+.tabs label:hover {
+  cursor: pointer;
+}
+
+.tabs input:checked + label {
+  border-bottom: 1px solid #e21d00;
+}
+.tabs #tab1:checked ~ .content #profile-content1,
+.tabs #tab2:checked ~ .content #profile-content2 {
+  display: block;
+}
+.tabs .content > div {
+  display: none;
+  padding-top: 20px;
+  text-align: left;
+  overflow: auto;
+}
+
+#profile-content1 {
+  border-radius: 8px;
+  padding: 0px 0px 70px 0px;
+  max-width: 100%;
+}
+
+.transaction-heading {
+  padding: 10px 5px;
+}
+
+.transaction-heading p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.creditcard-content1 {
+  background-color: rgba(86, 204, 242, 0.1);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.creditcard-content1 h3 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 3px;
+}
+
+.creditcard-content1 p {
+  font-size: 12px;
+  line-height: 18px;
+}
+/* .bookingdetails-parent{
+  position: relative;
+  border: solid;
+  padding:20px 0px;
+} */
+
+#profile-content2 {
+  /* border: solid blue; */
+  border-radius: 8px;
+  /* padding: 0px 0px 70px 0px; */
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contentarea {
+    min-width: 100%;
+    left: 0px;
+    padding: 0;
+  }
+
+  .sidebar-list {
+    display: none;
+  }
+
+  .flex-right {
+    width: 100%;
+  }
+
+  .flex-left {
+    width: 30%;
+  }
+
+  .tabs {
+    text-align: start;
+  }
+
+  .tabs label {
+    width: 30%;
+  }
+  .fundbtn {
+    width: 60%;
+    margin: 30px 0px 0px 20%;
+  }
+  
+}
+
+.wallet-onboarding-h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #323232;
+  margin-top: 20px;
+}
+
+.wallet-onboarding-p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  color: #323232;
+  margin-top: 10px;
+}
+
+.fund-amount {
+  background: #ffffff;
+  border: 1px solid #d0c9d6;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1f1f1f;
+  padding:10px 20px;
+  width: 46%;
+  margin:auto;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.fund-amount:focus {
+  outline: none;
+  background-color: white;
+}

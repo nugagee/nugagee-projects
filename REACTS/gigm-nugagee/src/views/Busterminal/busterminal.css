@@ -1,0 +1,42 @@
+.busterminal{
+    padding: 50px 0px;
+}
+
+.busterminal h1{
+    font-family: "EuclidCircularB-Bold";
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+
+.terminal-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "EuclidCircularB-Bold";
+}
+
+.terminal-img-holder{
+    padding: 70px 0px;
+}
+
+.terminal-img-holder h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.terminal-img-holder p{
+    font-size: 13px;
+    line-height: 24px;
+    color: rgba(51, 51, 51, 0.7);
+}
+
+.terminal-img-holder h6{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: "EuclidCircularB-Bold";
+    color: rgba(51, 51, 51, 0.8);
+}

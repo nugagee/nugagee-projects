@@ -1,0 +1,137 @@
+.about{
+    background-image:linear-gradient(248.08deg, rgba(90, 20, 9, 0.5) 13.9%, rgba(47, 81, 92, 0.5) 100.87%),
+     url("../../assets/img/about.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 80px 0;
+    color: white;
+}
+
+.about h1{
+font-family: "EuclidCircularB-Bold";
+font-weight: 500;
+font-size: 34px;
+line-height: 42px;
+}
+.about p{
+    max-width:700px;
+    font-family: "EuclidCircularB-Bold";
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+    margin: auto;
+}
+
+.our-vision p{
+max-width:380px;
+font-size: 15px;
+line-height: 24px;
+}
+
+.our-vision h2{
+    font-family: "EuclidCircularB-Bold";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    }
+
+.alittle p{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.alittle h1{
+    font-family: "EuclidCircularB-Bold";
+   font-weight: bold;
+   font-size: 32px;
+   line-height: 40px;
+}
+
+.about-img-holder{
+    margin-top: -150px;
+}
+
+.mission-img{
+    float: right;
+    width: 60%;
+   margin: 0 0px 20px 0;
+}
+
+.object-fit_contain {
+    -o-object-fit: contain;
+       object-fit: contain;
+       height: 120px;
+       width: 100%;
+  }
+
+  .mission-img2{
+    width: 30%;
+    margin: 0px 0px 10px 0px;
+    position: relative;
+}
+
+.rectangle{
+    position: absolute;
+    z-index: -1;
+    top:-40px;
+    left: 200px;
+}
+.ourteam{
+    padding: 50px 0px 100px 0px;
+}
+
+.ourteam h1{
+font-family: "EuclidCircularB-Bold";
+font-weight: 600;
+font-size: 34px;
+line-height: 42px;
+}
+
+.ourteam h2{
+font-family: "EuclidCircularB-Bold";
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.18px;
+}
+
+.ourteam p{
+    width: 470px;
+    font-size: 14px;
+line-height: 24px;
+}
+
+.team-icon{
+    max-width:50px ;
+    padding: 5px;
+    background: #56CCF2;
+    border: 1px solid #56CCF2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+    .about-img-holder{
+        margin-top: 0px;
+    }
+    .mission-img{
+        width: 100%;
+    }
+    .mission-img2{
+        width: 70%;
+    }
+    .ourteam p{
+        width: 330px;
+    }
+    .rectangle{
+        top:-15px;
+        left: 190px;
+    }
+}

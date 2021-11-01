@@ -1,0 +1,13 @@
+.Button_Wrap {
+    width: 100%;
+    height: 45px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #56CCF2;
+    border-radius: 8px;
+    border:none;
+    outline: none;
+}

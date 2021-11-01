@@ -1,0 +1,54 @@
+
+.help-support{
+    text-align: center;
+}
+
+.help-support h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.helpholder{
+    margin: 40px 0px 0px 0px;
+    padding: 20px  30px;
+    background: rgba(86, 204, 242, 0.05);
+    border-radius: 8px;
+}
+
+.helpholder1{
+    padding: 10px 20px;
+    position: relative;
+    background:rgba(86, 204, 242, 0.1);
+    border-radius: 14px;
+    margin: 0px 0px 10px 0px;
+}
+
+.helpholder1 p{
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px 0px 5px 0px;
+}
+
+.helpholder1 h3{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.helpholder1 h3 a{
+    color: black;
+}
+.helpholder1 i{
+    position: absolute;
+    right: 30px;
+    bottom: 35%;
+    color: black;
+}
+
+@media only screen and (max-width:1024px){
+      .helpholder1 i{
+        right: 10px;
+        bottom: 40%;
+    }
+}

@@ -1,0 +1,46 @@
+.modalTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.modalPar {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+  max-width: 378px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.modContainer {
+  padding: 10px 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .modContainer {
+    padding: 0;
+  }
+}
+
+.rodal-mask {
+  background: rgba(51, 51, 51, 0.7) !important;
+}
+
+.rodal-dialog {
+  border-radius: 15px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .rodal-dialog {
+    margin: 10px;
+    width:95% !important;
+  }
+}

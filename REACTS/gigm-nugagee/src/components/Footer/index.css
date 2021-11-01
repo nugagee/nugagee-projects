@@ -1,0 +1,11 @@
+
+.footer-text ul{
+list-style: none;
+text-align: start;
+}
+
+.footer-text li{
+    font-size: 14px;
+    line-height: 17px;
+    color: red;
+    }

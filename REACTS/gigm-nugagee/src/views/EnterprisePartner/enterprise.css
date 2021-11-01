@@ -1,0 +1,102 @@
+/* .enterprise{
+    border: solid;
+} */
+
+.enterprise-partner{
+    padding: 20px;
+}
+
+.enterprise-partner h1{
+    max-width: 297px;
+    font-size: 54px;
+    line-height: 62px;
+    padding: 0px 0px 10px 0px;
+}
+
+.enterprise-partner h2{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.partner-checkbox{
+    padding:10px 0px 0px 0px;
+}
+
+.partner-checkbox label{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px 10px;
+}
+
+.partner-checkbox p{
+    max-width: 305px;
+    padding: 0px 0px 10px 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.slider-holder{
+    padding: 10px 0px 0px 0px;
+}
+
+.slide-partner {
+    position: relative;
+    height: 250px;
+    max-width: 100%;
+    margin: 0 10px;
+}
+
+.slide-partner img {
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
+    width: 100%;
+    border-radius: 14px;
+}
+
+
+.enterprise .slick-prev,
+.enterprise .slick-next {
+    top: 120% !important;
+    background-color: black !important;
+    border-radius: 50%;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.enterprise .slick-prev {
+    left: 10px !important;
+}
+
+.enterprise .slick-next {
+    right: 550px !important;
+}
+
+.enterprise .slick-prev:before,
+.enterprise .slick-next:before {
+    font-family: 'poppins' !important;
+    font-size: 12px;
+    line-height: 1;
+    opacity: 1 !important;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.enterprise .slick-prev:hover,
+.enterprise .slick-prev:focus,
+.enterprise .slick-next:hover,
+.enterprise .slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+
+@media screen and (max-width: 1024px) {
+    .enterprise .slick-prev,
+.enterprise .slick-next {
+    display: none;
+}
+  }

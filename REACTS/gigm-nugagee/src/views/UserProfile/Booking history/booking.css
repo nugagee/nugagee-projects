@@ -1,0 +1,124 @@
+.nobookinghistory{
+  text-align: center;
+  padding: 20px 0px;
+  background: rgba(86, 204, 242, 0.05);
+}
+
+.nobookinghistory h3{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 40px 0px;
+}
+
+.nobookinghistoryimg{
+  padding: 20px 0px;
+  width: 180px;
+  height: 180px;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(235, 244, 250, 0.2);
+}
+
+.nobookinghistory p{
+  margin: 40px 0px 0px 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.booking-time{
+    font-size: 24px;
+    cursor: pointer;
+    color:rgba(86, 204, 242, 1);
+  }
+  .booking-history{
+    background-color:rgba(86, 204, 242, 0.05);
+    padding: 20px 10px;
+  }
+  
+  .booking-details{
+   margin: 20px;
+   padding: 10px 20px;
+   background-color: rgba(86, 204, 242, 0.1);
+   border-radius: 14px;
+   cursor: pointer;
+  }
+  
+  .booking-details h3{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px 0px 7px 0px;
+  }
+  
+  .booking-details h4{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .booking-details p{
+    padding: 0px 0px 7px 0px;
+  }
+  
+  .booking-history2 h4{
+    font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(33, 35, 37, 0.7);
+  margin: 20px 0px 10px 0px;
+  }
+  
+  .booking-history2-details-holder{
+    background: rgba(86, 204, 242, 0.05);
+    border-radius: 14px;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  .booking-history2-details{
+    padding: 50px 120px;
+    background: rgba(86, 204, 242, 0.1);
+    border-radius: 14px;
+  }
+  .booking-history2-details h2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #212325;
+  }
+  
+  .booking-history2-details p{
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .map{
+    font-size: 20px;
+    color: #EB5757;
+    margin: 0px 10px 0px 0px;
+  }
+  .dotted{
+    font-size: 20px;
+    margin-left: 3px;
+  }
+  .location{
+    font-size: 20px;
+    color:#6FCF97;
+    margin: 0px 10px 0px 0px;
+  }
+  .rating{
+    background: #E21D00;
+  }
+
+  @media only screen and (max-width:1024px){
+    .booking-history2-details{
+        padding: 30px 10px;
+      }
+      booking-history2-details-holder {
+        padding: 10px;
+    }
+
+  }

@@ -1,0 +1,207 @@
+
+.settingarea  {
+  min-width: 85%;
+  position: absolute;
+  top: 0;
+  left: 250px;
+  z-index: 1;
+}
+
+.profilePic h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 0px 0px 10px 0px;
+}
+
+.edit {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.trash {
+  font-size: 20px;
+  color: #e21d00;
+  cursor: pointer;
+}
+
+.setting-row {
+  margin: 20px 0px 0px 0px;
+  padding: 20px 60px 50px 60px;
+}
+
+.setting-row label{
+  padding: 0px 0px 0px 10px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+
+.changepin label {
+  padding: 0px 0px 0px 10px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+::placeholder {
+  padding: 0px 0px 0px 10px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #d0c9d6;
+}
+
+.setting-button {
+  width: 20%;
+  margin: auto;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input i {
+  position: absolute;
+  right: 30px;
+  top: 13px;
+}
+
+.referralbtn {
+  width: 20%;
+  margin: auto;
+  padding: 10px 0px;
+}
+
+.pininput{
+  position: relative;
+}
+
+.pininput label{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #707070;
+}
+
+.pininputicon{
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  cursor: pointer;
+}
+
+.changepin{
+  width: 50%;
+  margin: auto;
+}
+
+.changepin h2{
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.pin-btn{
+  width: 40%;
+  margin: auto;
+}
+
+
+/*Tabs*/
+.tabsSettings {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.tabsSettings .tab-input {
+  display: none;
+}
+.tabsSettings .tab-label {
+  display: inline-block;
+  padding: 6px 0 6px 0;
+  margin: 0 -2px;
+  width: 25%; /* =100/tabs number */
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+.tabsSettings .tab-label:hover {
+  cursor: pointer;
+}
+.tabsSettings input:checked + .tab-label {
+  border-bottom: 2px solid red;
+}
+.tabsSettings #tab1:checked ~ .content #content1,
+.tabsSettings #tab2:checked ~ .content #content2,
+.tabsSettings #tab3:checked ~ .content #content3,
+.tabsSettings #tab4:checked ~ .content #content4 {
+  display: block;
+}
+.tabsSettings .content > div {
+  display: none;
+  padding-top: 20px;
+  text-align: left;
+  /*height: 192px;*/
+  overflow: auto;
+}
+
+/* .tabsSettings #content2{
+  overflow-x: none;
+} */
+
+
+/* @media only screen and (max-width:350px) {
+  .settingarea {
+    min-width: 100%;
+    left: 0px;
+    padding: 0;
+  }
+  .pin-btn{
+    width: 100%;
+  }
+  .setting-button {
+    width: 100%;
+  }
+
+  .tab-label{
+    font-size: 7.5px;
+  }
+  .tabsSettings {
+    margin-top: 20px;
+    padding: 20px 0px;
+  }
+  .changepin h2{
+    margin: 0px 0px 20px 0px;
+  }
+  .setting-row {
+    padding: 0px;
+}
+} */
+@media only screen and (max-width:1050px) {
+  .settingarea {
+    min-width: 100%;
+    left: 0px;
+    padding: 0;
+  }
+  .pin-btn{
+    width: 100%;
+  }
+  .setting-button {
+    width: 100%;
+  }
+
+  .tab-label{
+    font-size: 7.5px;
+  }
+  .tabsSettings {
+    margin-top: 20px;
+    padding: 20px 0px;
+  }
+  .changepin h2{
+    margin: 0px 0px 20px 0px;
+  }
+  .setting-row {
+    padding: 0px;
+}
+.changepin {
+  width: 100%;
+}
+}

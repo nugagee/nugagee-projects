@@ -1,0 +1,22 @@
+.appinstall{
+    background: rgba(86, 204, 242, 0.2);
+}
+
+.appinstall h2{
+font-family: "EuclidCircularB-Bold";
+font-weight: bold;
+font-size: 32px;
+line-height: 40px;
+color: #1F1F1F;
+}
+
+.appinstall p{
+    max-width: 365px;
+}
+
+/* @media screen and (max-width: 1024px){
+    .mobileview{
+        max-height: 100%;
+        max-width: 100%;
+    }
+} */
